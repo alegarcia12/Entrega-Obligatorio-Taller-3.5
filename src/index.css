@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+input:-webkit-autofill {
+  background-color: white !important;
+  color: black !important;
+  box-shadow: 0 0 0px 1000px white inset !important;
+  -webkit-text-fill-color: black !important;
+}
+
+.fixed-size-container {
+  height: 500px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  padding: 0px 5px;
+  border-radius: 10px;
+}
+
+.contenido {
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.headerComponentes {
+  background-image: url('/fondo.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  background-blend-mode: darken;
+}
+
+.tiempoEvolucion{
+    background-image: url('/evolucion.png');
+      background-size: cover;
+      background-position: bottom;
+      background-repeat: no-repeat;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.9);
+      background-blend-mode: darken;
+}
+
+h2 {
+  color: #97f31e !important;
+  padding: 10px;
+  font-weight: bold !important;
+}
+
+.login-title {
+  color: black !important;
+}
+
+.form-label {
+  color: black;
+}
+
+footer {
+  color: white;
+  font-weight: bold;
+}
+
+footer span {
+  color: red;
+}
+
+label {
+  color: white !important;
+  font-weight: bold;
+}
+
+.formulario-auth label {
+  color: black !important;
+}
